@@ -1,0 +1,8 @@
+.vs/
+.vscode/
+.idea/
+
+*.exe
+
+_unfinished-solution*.*
+__*.*
