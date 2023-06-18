@@ -1,9 +1,15 @@
+# default
 .vs/
 .vscode/
 .idea/
-tools/
 *.exe
+
+# examples
 examples/
 
+# unfinished and tools
+tools/
 _unfinished-solution*.*
 __*.*
+
+# your ignore files: 
