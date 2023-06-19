@@ -1,10 +1,10 @@
 #include <iostream>
 
-int main(int argc, char** argv)
-{
-	using namespace std;
+using namespace std;
 
-    int a[100000], n, i, max, min;
+int main(int argc, char *argv[])
+{
+	int a[100000], n, i, max, min;
 
     max = 0;
 
@@ -33,6 +33,6 @@ int main(int argc, char** argv)
 	cout << a[max] << endl;
 
     cout << a[min] << endl;
-
+	
 	return 0;
 }

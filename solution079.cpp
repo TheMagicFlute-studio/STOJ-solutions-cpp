@@ -1,8 +1,8 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
 	for (int i = 1; i <= 100; i++)
 	{
@@ -12,6 +12,6 @@ int main()
 		}
 	}
 	cout << endl;
-
+	
 	return 0;
 }

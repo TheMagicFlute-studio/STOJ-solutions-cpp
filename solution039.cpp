@@ -1,10 +1,10 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     cout << 20 / 3 << " " << 20 % 3 << endl;
-
-	return 0;
+    
+    return 0;
 }

@@ -1,28 +1,26 @@
 #include <iostream>
 
+using namespace std;
+
 bool is_palindromic(int n)
 {
 	int x = 0, s = n;
 	while (s > 0)
 	{
-		x = x * 10 + s % 10; // 反向求和，s%10为取s的个位数，例，123取3
-		s = s / 10;			 // 删除s的个位数，例，123变成12
+		x = x * 10 + s % 10;
+
+		s = s / 10;
 	}
 
 	if (x == n)
 	{
 		return true;
 	}
-	else
-	{
-		return false;
-	}
+	return false;
 }
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-	using namespace std;
-
 	int n;
 
 	cin >> n;
@@ -36,6 +34,6 @@ int main(int argc, char **argv)
 		cout << "NO";
 	}
 	cout << endl;
-
+	
 	return 0;
 }

@@ -1,11 +1,13 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    char c;
-	int smallletters = 0, largeletters=0,space = 0, digit = 0,douhao=0, other = 0;
+	char c;
+
+	int smallletters = 0, largeletters = 0, space = 0, digit = 0, douhao = 0, other = 0;
+	
 	while ((c = getchar()) != '\n')
 	{
 		if (c >= 'a' && c <= 'z')
@@ -24,10 +26,8 @@ int main(int argc, char** argv)
 		{
 			space++;
 		}
-
 	}
 	cout << smallletters << " " << largeletters << " " << digit << " " << space << " " << endl;
-
+	
 	return 0;
-
 }

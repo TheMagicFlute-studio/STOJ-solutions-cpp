@@ -1,13 +1,11 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
-    using namespace std;
-
-    float x = 2.3;
-
-    cout << pow(x, 2) - 3 * x + 5 << endl;
-
+    cout << pow(2.3, 2) - 3 * 2.3 + 5 << endl;
+    
     return 0;
 }

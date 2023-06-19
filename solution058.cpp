@@ -1,8 +1,8 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     char a, b;
 
@@ -17,6 +17,6 @@ int main(int argc, char** argv)
         b = (char)(a - 32);
     }
     cout << b << endl;
-
-	return 0;
+    
+    return 0;
 }

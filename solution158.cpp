@@ -3,15 +3,15 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
     int m, n;
 
-    cin >> m >> n; // 输入矩阵的行数和列数
+    cin >> m >> n;
 
-    int max_val = INT_MIN; // 初始化最大值为最小整数
+    int max_val = INT_MIN;
 
-    for (int i = 0; i < m; i++) // 循环读入矩阵中的每一个元素
+    for (int i = 0; i < m; i++)
 	{
         for (int j = 0; j < n; j++)
 		{
@@ -19,14 +19,14 @@ int main()
 
             cin >> val;
 
-            if (val > max_val) // 更新最大值
+            if (val > max_val)
 			{
                 max_val = val;
             }
         }
     }
 
-    cout << max_val << endl; // 输出最大值
-
+    cout << max_val << endl;
+    
     return 0;
 }

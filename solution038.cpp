@@ -1,34 +1,38 @@
-# include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <iomanip>
 
-int main()
+using namespace std;
+
+const int SIZE = 4;
+int nums[SIZE] = {3, 1, 9, 5};
+
+double get_Average(int SIZE, int *nums)
 {
-    using namespace std;
-
-    const int SIZE = 4;
-    int nums[SIZE] = {3, 1, 9, 5};
-
-    // 计算平均值
     double sum = 0;
     for (int i = 0; i < SIZE; i++)
     {
         sum += nums[i];
     }
-    double mean = sum / SIZE;
-
-    // 计算中位数
+    return sum / SIZE;
+}
+double get_Median(int SIZE, int *nums)
+{
     sort(nums, nums + SIZE);
     double median;
     if (SIZE % 2 == 0)
     {
-        median = (nums[SIZE / 2 - 1] + nums[SIZE / 2]) / 2.0;
+        return (nums[SIZE / 2 - 1] + nums[SIZE / 2]) / 2.0;
     }
     else
     {
-        median = nums[SIZE / 2];
+        return nums[SIZE / 2];
     }
+}
 
-    // 输出结果
-    cout << fixed << setprecision(3) << mean << ' ' << median << endl;
-
+int main(int argc, char *argv[])
+{
+    cout << fixed << setprecision(3) << get_Average(SIZE, nums) << " " << get_Median(SIZE, nums) << endl;
+    
     return 0;
 }

@@ -1,9 +1,9 @@
-# include <iostream>
+#include <iostream>
 
-int main(int argc, char** argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-
     int a, b, c, d;
 
 	cin >> a >> b >> c;
@@ -28,7 +28,6 @@ int main(int argc, char** argv)
     }
 
 	cout << a << " " << b << " " << c << endl;
-
-	return 0;
-	
+    
+    return 0;
 }

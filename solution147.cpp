@@ -1,17 +1,15 @@
-#include <string>
-
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
-	
 	string s;
-
-	getline(cin, s); //获取整行内容
+	getline(cin, s);
 	
 	int count = 0;
+
 	for(int i = 0; i <= s.size(); i++)
 	{
 		if(s[i] == ' ')
@@ -19,8 +17,7 @@ int main()
 			count += 1;
 		}
 	}
-
-	cout << count + 1 << endl; // 单词数比空格多1
-
+	cout << count + 1 << endl;
+	
 	return 0;
-} 
+}

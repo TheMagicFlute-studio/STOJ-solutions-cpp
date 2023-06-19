@@ -1,9 +1,9 @@
 #include <iostream>
 
-int main(int argc, char **argv)
-{
-    using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
     int a;
 
     cin >> a;
@@ -16,6 +16,6 @@ int main(int argc, char **argv)
     {
         cout << "Odd" << endl;
     }
-
+    
     return 0;
 }

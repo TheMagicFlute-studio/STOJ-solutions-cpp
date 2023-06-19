@@ -7,9 +7,12 @@
 # examples
 examples/
 
-# unfinished and tools
+# unfinished, tools and templates
 tools/
-_unfinished-solution*.*
+unfinished/
 __*.*
+
+# temp files
+tempCodeRunnerFile.*
 
 # your ignore files: 

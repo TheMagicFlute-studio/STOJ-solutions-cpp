@@ -1,14 +1,14 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    char a;
+    char c;
 
-    cin >> a;
+    cin >> c;
 
-    cout << (int)(a) <<endl;
+    cout << (int)(c) << endl;
 
-	return 0;
+    return 0;
 }

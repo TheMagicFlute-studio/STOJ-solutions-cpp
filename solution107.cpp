@@ -1,19 +1,16 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-
-    int n;
+	int n, j = 0;
 
 	cin >> n;
 
 	int r[100];
-
-	int i, j = 0;
  
-	for (i = 0; n > 0; i++)
+	for (int i = 0; n > 0; i++)
 	{
 		r[i] = n % 2;
 
@@ -22,10 +19,11 @@ int main(int argc, char** argv)
 		j++;
 	}
     
-	for (j = j - 1; j >= 0; j--)
+	for (int j = j - 1; j >= 0; j--)
 	{
 		cout << r[j];
 	}
+	cout << endl;
 	
 	return 0;
 }

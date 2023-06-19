@@ -1,20 +1,22 @@
 #include <iostream>
 
-int main()
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-    int x, y;
-    for (x = 0; x <= 35; x++)
+    int c, r;
+
+    for (c = 0; c <= 35; c++)
     {
-        y = 35 - x;
-        if (2 * x + 4 * y == 94)
+        r = 35 - c;
+
+        if (2 * c + 4 * r == 94)
         {
-            cout << x; // chicken
-            cout << " ";
-            cout << y; // rabbit
-            cout << endl;
+            cout << c << " " << r << endl;
+            
             break;
         }
     }
+    
     return 0;
 }

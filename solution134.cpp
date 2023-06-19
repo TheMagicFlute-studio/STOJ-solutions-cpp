@@ -1,10 +1,10 @@
 #include <iostream>
 #include <algorithm>
 
-int main(int argc, char **argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-    
     int n;
 
     cin >> n;
@@ -15,11 +15,14 @@ int main(int argc, char **argv)
     {
         cin >> x[i];
     }
+
     sort(x, x + n);
+
     for (int i = 0; i < n; i++)
     {
         cout << x[i] << " ";
     }
+    
     cout << endl;
     
     return 0;

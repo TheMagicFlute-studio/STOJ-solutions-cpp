@@ -1,14 +1,10 @@
 #include <iostream>
 
-int main(int argc, char **argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-
-    cout << "***" << endl;
-
-    cout << " **" << endl;
-
-    cout << "  *" << endl;
-
+    cout << "***" << endl << " **" << endl << "  *" << endl;
+    
     return 0;
 }

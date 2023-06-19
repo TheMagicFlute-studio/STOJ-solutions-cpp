@@ -1,10 +1,10 @@
-# include <iostream>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    int year;
+	int year;
 
 	cin >> year;
 
@@ -16,5 +16,6 @@ int main(int argc, char** argv)
     {
 		cout << "No" << endl;
     }
+	
 	return 0;
 }

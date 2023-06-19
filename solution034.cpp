@@ -1,12 +1,10 @@
-# include <iostream>
+#include <iostream>
 
-int main(int argc, char** argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-
-    float a = 4, b = 4;
+    cout << 4 * 4 << endl;
     
-    cout << a * b << endl;
-
-	return 0;
+    return 0;
 }

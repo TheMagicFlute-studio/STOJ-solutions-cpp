@@ -1,10 +1,13 @@
 #include <iostream>
+
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
 	int R;
+	
 	cin >> R;
+
 	int dp[R][R];
 	for (int i = 0; i < R; i++)
 	{
@@ -21,7 +24,7 @@ int main()
 			dp[i][j] = max(dp[i + 1][j], dp[i + 1][j + 1]) + dp[i][j];
 		}
 	}
-
 	cout << dp[0][0] << endl;
+	
 	return 0;
 }

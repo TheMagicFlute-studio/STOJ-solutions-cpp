@@ -1,23 +1,21 @@
 #include <iostream>
 
-int main(int argc, char **argv)
-{
-    using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
     char a;
 
     cin >> a;
 
-    a = (int)(a);
-
-    if (a >= 65 && a <= 90)
+    if (a >= 'A' && a <= 'Z')
     {
         cout << "upper" << endl;
     }
-    if (a >= 97 && a <= 122)
+    if (a >= 'a' && a <= 'z')
     {
         cout << "lower" << endl;
     }
-
+    
     return 0;
 }

@@ -1,8 +1,8 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     int a;
 
@@ -12,10 +12,10 @@ int main(int argc, char** argv)
     {
         cout << "yes" << endl;
     }
-    else if (a <= 0)
+    else
     {
         cout << "no" << endl;
     }
-
-	return 0;
+    
+    return 0;
 }

@@ -1,27 +1,28 @@
 #include <iostream>
 
-int main(int argc, char** argv)
-{
-	using namespace std;
+using namespace std;
 
-    int km;
+int main(int argc, char *argv[])
+{
+	int km;
 	
-	float price = 8;
+	double price = 8;
 
 	cin >> km;
 
 	if (km <= 3)
 	{
-		cout << price << endl;
+		cout << price;
 	}
-	else if (km > 3)
+	else
 	{
 		km -= 3;
 
 		price += km * 2.7;
 
-		cout << price << endl;
+		cout << price;
 	}
-
+	cout << endl;
+	
 	return 0;
 }

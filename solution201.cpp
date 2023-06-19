@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 double get_BMI(double height, double weight)
 {
     return weight / (height * height);
@@ -12,13 +14,11 @@ double get_body_fat(double height, double weight, double age, double gender)
 
 int main(int argc, char *argv[])
 {
-    using namespace std;
-
     double height, weight, age, gender;
 
     cin >> height >> weight >> age >> gender;
 
     cout << get_body_fat(height, weight, age, gender) << endl;
-
+    
     return 0;
 }

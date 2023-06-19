@@ -1,9 +1,9 @@
 #include <iostream>
 
-int main(int argc, char **argv)
-{
-	using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
 	int n;
 
 	cin >> n;
@@ -16,10 +16,12 @@ int main(int argc, char **argv)
 
 		arr[i] = (arr[i] - 'a' + 3) % 26 + 'a';
 	}
+	
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i];
 	}
 	cout << endl;
+	
 	return 0;
 }

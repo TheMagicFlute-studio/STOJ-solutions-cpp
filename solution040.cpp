@@ -1,14 +1,14 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     char Upper;
 
 	cin >> Upper;
 
-    cout << (char)(Upper + 32)<< endl;
-
-	return 0;
+    cout << (char)(Upper + 32) << endl;
+    
+    return 0;
 }
