@@ -1,42 +1,41 @@
 #include <iostream>
 
+using namespace std;
+
 bool is_Ugly_num(int n)
 {
-    // if (n <= 0)
-    // {
-    //     return false; // 0和负数都不是丑数
-    // }
     if (n == 1)
     {
         return false;
     }
-    while (n % 2 == 0) // 不断除以2，直到不能整除为止
+
+    while (n % 2 == 0)
     {
         n /= 2;
     }
-    while (n % 3 == 0) // 不断除以3，直到不能整除为止
+    while (n % 3 == 0)
     {
         n /= 3;
     }
-    while (n % 5 == 0) // 不断除以5，直到不能整除为止
+    while (n % 5 == 0)
     {
         n /= 5;
     }
+
     if (n == 1)
     {
         return true;
     }
-    else
-    {
-        return false;
-    }
+    
+    return false;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    using namespace std;
     int n;
+
     cin >> n;
+    
     if (is_Ugly_num(n))
     {
         cout << "True";
@@ -46,5 +45,6 @@ int main()
         cout << "False";
     }
     cout << endl;
+    
     return 0;
 }

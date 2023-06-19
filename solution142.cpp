@@ -3,35 +3,34 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
 	string str;
-	getline(cin, str); // 读入字符串，包括空格
+	getline(cin, str);
 
 	int word_count = 0;
-	bool in_word = false; // 标记是否在单词中
+	bool in_word = false;
+	
 	for (int i = 0; i < str.length(); i++)
 	{
-		if (str[i] == ' ') // 遇到空格
+		if (str[i] == ' ')
 		{
-			if (in_word) // 如果前面是一个单词
+			if (in_word)
 			{
-				word_count++;	 // 单词数加一
-				in_word = false; // 标记重置为不在单词中
+				word_count++;
+				in_word = false;
 			}
 		}
-		else if (!in_word) // 如果当前不在单词中
+		else if (!in_word)
 		{
-			in_word = true; // 标记为在单词中
+			in_word = true;
 		}
 	}
-
-	if (in_word) // 处理最后一个单词
+	if (in_word)
 	{
 		word_count++;
 	}
-
-	cout << word_count << endl; // 输出单词数
-
+	cout << word_count << endl;
+	
 	return 0;
 }

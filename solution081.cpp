@@ -1,8 +1,8 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     int n, a, b = 0;
 
@@ -19,5 +19,5 @@ int main(int argc, char** argv)
     }
     cout << b << endl;
 
-	return 0;
+    return 0;
 }

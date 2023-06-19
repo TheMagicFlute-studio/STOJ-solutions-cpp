@@ -1,19 +1,16 @@
-# include <iostream>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-
-    long long int n;
+	long long int n;
 
 	cin >> n;
 
-	int r[100];
-
-	int i, j = 0;
+	int r[100], j = 0;
  
-	for (i = 0; n > 0; i++)
+	for (int i = 0; n > 0; i++)
 	{
 		r[i] = n % 2;
 
@@ -26,6 +23,7 @@ int main(int argc, char** argv)
 	{
 		cout << r[j];
 	}
+	cout << endl;
 	
 	return 0;
 }

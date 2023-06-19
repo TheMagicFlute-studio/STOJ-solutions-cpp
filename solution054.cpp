@@ -1,33 +1,21 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    int a, b, c, t;
+    int a, b;
 
-    cin >> a >> b >> c;
+    cin >> a >> b;
 
-    if(a < b)
+    if (a == b)
     {
-        t = a;
-        a = b;
-        b = t;
+        cout << "equal" << endl;
     }
-    if(a < c)
+    else
     {
-        t = a;
-        a = c;
-        c = t;
+        cout << "not equal" << endl;
     }
-    if(b < c)
-    {
-        t = b;
-        b = c;
-        c = t;
-    }
-
-    cout << a << ' '<< b <<' '<< c<<endl;
-
-	return 0;
+    
+    return 0;
 }

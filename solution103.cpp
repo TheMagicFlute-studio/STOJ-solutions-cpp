@@ -1,10 +1,10 @@
-# include <iostream>
+#include <iostream>
 
-int main(int argc, char** argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-	using namespace std;
-
-    double a, b, tmp;
+	double a, b, tmp;
 
 	cin >> a >> b;
 
@@ -15,6 +15,6 @@ int main(int argc, char** argv)
 	b = tmp;
 
 	cout << a << " " << b << endl;
-
+	
 	return 0;
 }

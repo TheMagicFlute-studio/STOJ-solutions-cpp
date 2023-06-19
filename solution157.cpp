@@ -1,25 +1,28 @@
 #include <iostream>
 
-int main()
-{
-    using namespace std;
+using namespace std;
 
-    int m, n;
+int main(int argc, char *argv[])
+{
+    int m, n, cnt = 0;
+
     cin >> m >> n;
+
     int a[m][n];
-    int cnt = 0; // 非零元素个数
+
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
         {
             cin >> a[i][j];
+            
             if (a[i][j] != 0)
             {
                 cnt++;
             }
         }
     }
-    // cout << m << " " << n << " " << cnt << endl;
+
     for (int i = 0; i < m; i++)
     {
         for (int j = 0; j < n; j++)
@@ -30,5 +33,6 @@ int main()
             }
         }
     }
+    
     return 0;
 }

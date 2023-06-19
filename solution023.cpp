@@ -1,9 +1,10 @@
 #include <iostream>
+#include <cmath>
 
-int main()
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-
     double a, b, c;
 
     cin >> a >> b >> c;
@@ -27,6 +28,6 @@ int main()
     {
         cout << "不是三角形" << endl;
     }
-
+    
     return 0;
 }

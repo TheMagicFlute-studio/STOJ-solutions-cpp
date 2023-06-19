@@ -1,9 +1,9 @@
 #include <iostream>
 
-int main(int argc, char **argv)
-{
-    using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
     int cnt = 0;
 
     for (int i = 2; i <= 500; i++)
@@ -16,12 +16,11 @@ int main(int argc, char **argv)
             }
             if (j == i)
             {
-                // cout << i << endl;
                 cnt++;
             }
         }
     }
     cout << cnt << endl;
-
+    
     return 0;
 }

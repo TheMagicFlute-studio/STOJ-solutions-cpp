@@ -1,8 +1,9 @@
-# include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
-bool check_Narcissistic_number(int num)
+bool is_Narcissistic_number(int num)
 {
     int a, b, c;
 
@@ -16,22 +17,20 @@ bool check_Narcissistic_number(int num)
     {
         return true;
     }
-	else
-    {
-	    return false;
-    }
+
+    return false;
 }
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     for (int i = 100; i < 1000; i++)
     {
-        if (check_Narcissistic_number(i))
+        if (is_Narcissistic_number(i))
         {
             cout << i << " ";
         }
     }
     cout << endl;
-
-	return 0;
+    
+    return 0;
 }

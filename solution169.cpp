@@ -1,12 +1,10 @@
-# include <iostream>
-
-# include <cmath>
+#include <iostream>
+#include <cmath>
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
-	//输出2-k内的所有素数
 	int i, j, k;
 
     cin >> k;
@@ -20,10 +18,12 @@ int main()
                 break;
             }
 		}
+		
 		if (j == int(sqrt(i)) + 1)
         {
 			cout << i << " ";
         }
 	}
+	
 	return 0;
 }

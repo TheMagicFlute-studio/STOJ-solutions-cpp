@@ -16,14 +16,19 @@ bool is_prime(int num)
 
 int main(int argc, char *argv[])
 {
-    for (int i = 100 ; i <= 200 ; i++)
+    int n;
+
+    cin >> n;
+
+    for (int i = 2; i <= n; i++)
     {
-        if (is_prime(i) == true)
+        for (int j = 0; j <= n - i; j++)
         {
-            cout << i << " ";
+            if (is_prime(i) && is_prime(j) && i + j == n)
+            {
+                cout << i << "+" << j << endl;
+                return 0;
+            }
         }
     }
-    cout << endl;
-    
-    return 0;
 }

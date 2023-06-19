@@ -1,14 +1,14 @@
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
-    using namespace std;
-
     char c;
 
     cin >> c;
 
-    cout << (int)(c) - 48 << endl;
-
+    cout << c - '0' << endl;
+    
     return 0;
 }

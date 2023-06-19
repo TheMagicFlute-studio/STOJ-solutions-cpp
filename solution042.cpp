@@ -1,20 +1,14 @@
-# include <iostream>
+#include <iostream>
 
-int main(int argc, char** argv)
+using namespace std;
+
+int main(int argc, char *argv[])
 {
-    using namespace std;
-
-    float a;
-    
-    int b = 2, c, d;
+    double a;
 
 	cin >> a;
 
-    c = (int)(a * b);
-
-    d = (int)(a) * b;
-
-    cout << c << " " << d << endl;
-
-	return 0;
+    cout << (int)(a * 2) << " " << (int)(a) * 2 << endl;
+    
+    return 0;
 }

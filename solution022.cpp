@@ -1,13 +1,13 @@
 #include <iostream>
 
+using namespace std;
+
 const int MAXN = 5005;
 const int MAXC = 50005;
 int c, h, v[MAXN], dp[MAXC];
 
-int main()
+int main(int argc, char *argv[])
 {
-	using namespace std;
-
 	cin >> c >> h;
 
 	for (int i = 1; i <= h; i++)

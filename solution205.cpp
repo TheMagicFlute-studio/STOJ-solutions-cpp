@@ -1,9 +1,9 @@
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
-    using namespace std;
-
     int temperature;
 
     cin >> temperature;
@@ -12,10 +12,10 @@ int main(int argc, char *argv[])
     {
         cout << "It's cool!" << endl;
     }
-    if (temperature < 0)
+    else if (temperature < 0)
     {
         cout << "It's too cold!" << endl;
     }
-
+    
     return 0;
 }

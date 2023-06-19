@@ -2,9 +2,8 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
-
 	int t, s, max_t = 0, unhappy_day = 0;
 
 	for (int i = 1; i <= 7; i++)

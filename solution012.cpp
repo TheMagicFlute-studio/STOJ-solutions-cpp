@@ -1,21 +1,17 @@
 #include <iostream>
 #include <iomanip>
 
-int main(int argc, char **argv)
-{
-    using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
     int a;
 
-    float b;
+    double b;
 
     cin >> a >> b;
 
-    b *= 1000;
-
-    cout << a * 2 << endl;
-
-    cout << fixed << setprecision(3) << (b / a) << endl;
-
+    cout << a * 2 << endl << fixed << setprecision(3) << (b * 1000 / a) << endl;
+    
     return 0;
 }

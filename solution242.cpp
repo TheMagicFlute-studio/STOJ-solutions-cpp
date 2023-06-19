@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
     {
         ans += pow(2, i);
     }
-
     cout << ans << endl;
     
     return 0;

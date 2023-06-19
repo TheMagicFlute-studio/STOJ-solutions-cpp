@@ -1,18 +1,18 @@
-# include <iostream>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
-    int a, tmp1, tmp2;
+    int a;
 
 	cin >> a;
 
-    tmp1 = a % 10;
-
-    tmp2 = a / 10;
-
-    cout << tmp1 << tmp2 << endl;
-
-	return 0;
+    while(a)
+    {
+        cout << a % 10;
+        a /= 10;
+    }
+    
+    return 0;
 }

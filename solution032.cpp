@@ -1,12 +1,10 @@
 #include <iostream>
 
-int main(int argc, char** argv)
-{
-    using namespace std;
+using namespace std;
 
-    float a = 5, b = 7, c = 2;
+int main(int argc, char *argv[])
+{    
+    cout << (double)(5) * (double)(7) / (double)(2) << endl;
     
-    cout << a * b / c << endl;
-
-	return 0;
+    return 0;
 }

@@ -1,10 +1,10 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     cout << sizeof(int) << " " << sizeof(short) << endl;
-
-	return 0;
+    
+    return 0;
 }

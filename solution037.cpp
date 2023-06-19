@@ -1,10 +1,10 @@
 #include <iostream>
 #include <iomanip>
 
-int main(int argc, char** argv)
-{
-    using namespace std;
+using namespace std;
 
+int main(int argc, char *argv[])
+{
     double c, f;
 
 	cin >> f;
@@ -12,6 +12,6 @@ int main(int argc, char** argv)
     c = (f - 32) * 5 / 9;
 
     cout << fixed << setprecision(5) << c << endl;
-
-	return 0;
+    
+    return 0;
 }

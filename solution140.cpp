@@ -1,8 +1,9 @@
-# include <bits/stdc++.h>
+#include <iostream>
+#include <string.h>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     int n, len;
 
@@ -12,12 +13,12 @@ int main(int argc, char** argv)
 
     len = strlen(a);
 
-    for(int i = len - 1; i >= 0; i--) //逆序输出
+    for(int i = len - 1; i >= 0; i--)
     {
         cout << a[i];
     }
+    
     cout << endl;
-
+    
     return 0;
-
 }

@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
     int n, count = 0;
 
@@ -10,10 +10,6 @@ int main(int argc, char** argv)
 
     for (int i = 1; i <= n; i++)
     {
-        if (i % 10 != 6)
-        {
-            continue;
-        }
         if (i % 8 == 0)
         {
             count++;

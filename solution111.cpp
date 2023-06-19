@@ -1,8 +1,8 @@
-# include <bits/stdc++.h>
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv)
+int main(int argc, char *argv[])
 {
 	int R, M, Y;
 
@@ -12,12 +12,12 @@ int main(int argc, char** argv)
 
 	money = M;
 
-	for(int i = 0; i < Y; i++)
+	for (int i = 0; i < Y; i++)
 	{
 		money *= (100 + R) / 100.0;
 	}
 
-	cout << (int) (money) << endl;
-
+	cout << (int)(money) << endl;
+	
 	return 0;
 }
