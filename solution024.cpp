@@ -4,35 +4,24 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	int a[100000], n, i, max, min;
-
-    max = 0;
-
-	min = 0;
+	int n, i, tmp, max = 0, min = 2147483647;
 
 	cin >> n;
 
 	for(i = 0 ; i < n ; i++)
     {
-		cin >> a[i];
-	}
-	
-	for(i = 1 ; i < n ; i++)
-    {
-		if(a[i] > a[max])
-        {
-			max = i;
+		cin >> tmp;
+		if (tmp <= min)
+		{
+			min = tmp;
 		}
-		
-		if(a[i] < a[min])
-        {
-			min = i;
+		else if (tmp >= max)
+		{
+			max = tmp;
 		}
-	}
-	
-	cout << a[max] << endl;
 
-    cout << a[min] << endl;
+	}
+	cout << max << " " << min << endl;
 	
 	return 0;
 }
