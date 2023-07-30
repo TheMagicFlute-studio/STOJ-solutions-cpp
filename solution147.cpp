@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -8,16 +7,16 @@ int main(int argc, char *argv[])
 	string s;
 	getline(cin, s);
 	
-	int count = 0;
+	int cnt = 0;
 
-	for(int i = 0; i <= s.size(); i++)
+	for(int i = 0; i <= s.length(); i++)
 	{
 		if(s[i] == ' ')
 		{
-			count += 1;
+			cnt++;
 		}
 	}
-	cout << count + 1 << endl;
+	cout << cnt + 1 << endl;
 	
 	return 0;
 }
