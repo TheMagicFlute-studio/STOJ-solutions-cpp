@@ -2,22 +2,25 @@
 
 using namespace std;
 
+long long get(int n)
+{
+    long long f1 = 1, f2 = 1, f3;
+    for (int i = 3; i <= n; i++)
+    {
+        f3 = f1 + f2;
+        f1 = f2;
+        f2 = f3;
+    }
+    return f3;
+}
+
 int main(int argc, char *argv[])
 {
-    long long i = 0, n, arr[100000];
-    
+    int n;
+
     cin >> n;
 
-    while (n)
-    {
-        arr[i] = n % 2;
-        n /= 2;
-        i++;
-    }
-    for (int j = i - 1; j >= 0; j--)
-    {
-        cout << arr[j];
-    }
-
+    cout << get(n) << endl;
+    
     return 0;
 }
