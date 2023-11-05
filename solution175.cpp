@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
         }
         else
         {
-            int j;
             array[i] = 0;
         }
     }
