@@ -10,6 +10,11 @@ int main(int argc, char *argv[])
     cin >> n;
 
     cin >> tmp;
+    if (n == 0)
+    {
+        cout << tmp;
+        return 0;
+    }
     flag += abs(tmp);
     if (tmp == 1)
         cout << "x^" << n;
@@ -70,7 +75,11 @@ int main(int argc, char *argv[])
     if (tmp > 0 && flag)
         cout << '+';
     if (tmp != 0)
-        cout << abs(tmp) << endl;
+        cout << abs(tmp);
+    // else if (n == 0 && flag)
+    //     cout << "+0";
+    // else if(n == 0)
+    //     cout << 0;
 
     return 0;
 }

@@ -7,6 +7,12 @@
 # examples
 examples/
 
+# notes
+notes/
+
+# problem making
+makeProblems/
+
 # unfinished, tools and templates
 tools/
 unfinished/
@@ -15,5 +21,10 @@ __*.*
 # temp files
 tempCodeRunnerFile.*
 
+# input and output files
+/in
+/out
+
 # your ignore files: 
 problem.md
+leetcode/
