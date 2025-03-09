@@ -32,6 +32,7 @@ For example（提交时删除这里的注释）
 ### 代码
 
 ```cpp
+// OJ #1 A+B问题
 #include <iostream>
 
 int main(int argc, char *argv[])
