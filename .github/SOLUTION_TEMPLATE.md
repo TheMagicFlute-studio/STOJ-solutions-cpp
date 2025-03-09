@@ -33,6 +33,7 @@ For example（提交时删除这里的注释）
 
 ```cpp
 // OJ #1 A+B问题
+// 基础解法 by Zhu J.Y.
 #include <iostream>
 
 int main(int argc, char *argv[])

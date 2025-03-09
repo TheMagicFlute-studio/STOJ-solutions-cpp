@@ -4,6 +4,7 @@
 
 ## 提示
 
+- 本仓库所有代码以[GPLv3.0协议](../LICENSE)公开。
 - 编程语言必须为C++
 - 如果你不熟悉Markdown和$LaTeX$语法，前往洛谷的[Markdown手册](https://help.luogu.com.cn/rules/academic/handbook/markdown)和[LaTeX手册](https://help.luogu.com.cn/rules/academic/handbook/latex)。
 - 老OJ文件名必须为 `solution<problemNumber>.md`。 比如: `solution1.md`.
@@ -16,13 +17,9 @@
 extensions:
 
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-
 - [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
-
 - [Office Viewer](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office)
-
 - [OI Runner](https://marketplace.visualstudio.com/items?itemName=CmdBlock.oi-runner)
-
 - [Competitive Programming Helper (cph)](https://marketplace.visualstudio.com/items?itemName=DivyanshuAgrawal.competitive-programming-helper)
 
 ## 示例代码块
@@ -31,6 +28,7 @@ extensions:
 
 ```cpp
 // OJ #1 A+B问题
+// 基础解法 by Zhu J.Y.
 
 #include <iostream>
 
@@ -51,6 +49,7 @@ int main(int argc, char *argv[])
 
 ```cpp
 // newOJ P1007 简单a+b
+// 基础解法 by Zhu J.Y.
 
 #include <iostream>
 
