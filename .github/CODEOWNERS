@@ -1,0 +1,7 @@
+# Lines starting with '#' are comments.
+# Each line is a file pattern followed by one or more owners.
+# You can use github users with @user or email addresses
+
+.github/    @TheMagicFlute
+README.md   @TheMagicFlute
+mkdocs.yml  @TheMagicFlute
