@@ -1,18 +1,18 @@
 # STOJ-solutions-cpp
 
-[![Watch on Github](https://img.shields.io/github/watchers/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/watchers)
-[![Star on Github](https://img.shields.io/github/stars/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/stargazers)
-[![Fork on Github](https://img.shields.io/github/forks/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/network/members)
+[![Watch on Github](https://img.shields.io/github/watchers/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute/STOJ-solutions-cpp/watchers)
+[![Star on Github](https://img.shields.io/github/stars/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute/STOJ-solutions-cpp/stargazers)
+[![Fork on Github](https://img.shields.io/github/forks/TheMagicFlute/STOJ-solutions-cpp.svg?style=social)](https://github.com/TheMagicFlute/STOJ-solutions-cpp/network/members)
 
-[![Hits](https://hits.sh/github.com/TheMagicFlute-studio/STOJ-solutions-cpp.svg)](https://hits.sh/github.com/TheMagicFlute-studio/STOJ-solutions-cpp/)
-[![GitHub issues](https://img.shields.io/github/issues/TheMagicFlute-studio/STOJ-solutions-cpp.svg)](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/TheMagicFlute-studio/STOJ-solutions-cpp.svg)](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/issues?q=is%3Aissue+is%3Aclosed)
-![License](https://img.shields.io/github/license/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
-![GitHub top language](https://img.shields.io/github/languages/top/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
-![GitHub repo size](https://img.shields.io/github/repo-size/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
-![GitHub contributors](https://img.shields.io/github/contributors/TheMagicFlute-studio/STOJ-solutions-cpp.svg)
+[![Hits](https://hits.sh/github.com/TheMagicFlute/STOJ-solutions-cpp.svg)](https://hits.sh/github.com/TheMagicFlute/STOJ-solutions-cpp/)
+[![GitHub issues](https://img.shields.io/github/issues/TheMagicFlute/STOJ-solutions-cpp.svg)](https://github.com/TheMagicFlute/STOJ-solutions-cpp/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/TheMagicFlute/STOJ-solutions-cpp.svg)](https://github.com/TheMagicFlute/STOJ-solutions-cpp/issues?q=is%3Aissue+is%3Aclosed)
+![License](https://img.shields.io/github/license/TheMagicFlute/STOJ-solutions-cpp.svg)
+![GitHub top language](https://img.shields.io/github/languages/top/TheMagicFlute/STOJ-solutions-cpp.svg)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/TheMagicFlute/STOJ-solutions-cpp.svg)
+![GitHub repo size](https://img.shields.io/github/repo-size/TheMagicFlute/STOJ-solutions-cpp.svg)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/TheMagicFlute/STOJ-solutions-cpp.svg)
+![GitHub contributors](https://img.shields.io/github/contributors/TheMagicFlute/STOJ-solutions-cpp.svg)
 
 哇哦，恭喜你，发现了STOJ题解仓库！
 
@@ -41,11 +41,11 @@ STOJ的C++题解仓库。
 
 ## 交流 - Communication
 
-交流与学习算法，请到[讨论区](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/discussions)
+交流与学习算法，请到[讨论区](https://github.com/TheMagicFlute/STOJ-solutions-cpp/discussions)
 
 学会如何[智慧地提问](https://github.com/xueqing/Smart-Questions)
 
-有问题，bug反馈，建议等，请到本仓库的[问题追踪器](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/issues)报告，或者在[讨论区](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/discussions)讨论。
+有问题，bug反馈，建议等，请到本仓库的[问题追踪器](https://github.com/TheMagicFlute/STOJ-solutions-cpp/issues)报告，或者在[讨论区](https://github.com/TheMagicFlute/STOJ-solutions-cpp/discussions)讨论。
 
 在提issue或新建讨论时，请先检索一下是否已经有人提出过类似的问题，以免造成重复。
 

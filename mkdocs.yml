@@ -1,17 +1,17 @@
 # Project Information
 site_name: STOJ新老题解库
 site_description: STOJ新老题解库，提供STOJ的题解，欢迎各位前来学习和交流。
-site_author: TheMagicFlute-Studio
-site_url: https://themagicflute-studio.github.io/STOJ-solutions-cpp/
+site_author: TheMagicFlute
+site_url: https://TheMagicFlute.github.io/STOJ-solutions-cpp/
 strict: true
 
 # Copyright
-copyright: 'All codes and articals are provided under <a href="https://github.com/TheMagicFlute-Studio/STOJ-Solutions-cpp/blob/main/LICENSE">GNU GPLv3 License</a>. <br /> Copyright &copy; 2023-2024 LCL-Dev-Team <br/> Copyright &copy; 2025 <a href="https://github.com/TheMagicFlute-Studio" target="_blank">TheMagicFlute-Studio</a>. All Rights Reserved.'
+copyright: 'All codes and articals are provided under <a href="https://github.com/TheMagicFlute/STOJ-Solutions-cpp/blob/main/LICENSE">GNU GPLv3 License</a>. <br /> Copyright &copy; 2023-2024 LCL-Dev-Team <br/> Copyright &copy; 2025 <a href="https://github.com/TheMagicFlute" target="_blank">TheMagicFlute</a>. All Rights Reserved.'
 
 # Repository Information
-repo_name: 'TheMagicFlute-Studio/STOJ-Solutions-cpp'
-repo_url: 'https://github.com/TheMagicFlute-Studio/STOJ-Solutions-cpp'
-edit_uri: 'https://github.com/TheMagicFlute-Studio/STOJ-Solutions-cpp/edit/main/docs/{path}'
+repo_name: 'TheMagicFlute/STOJ-Solutions-cpp'
+repo_url: 'https://github.com/TheMagicFlute/STOJ-Solutions-cpp'
+edit_uri: 'https://github.com/TheMagicFlute/STOJ-Solutions-cpp/edit/main/docs/{path}'
 
 theme:
   name: 'material'

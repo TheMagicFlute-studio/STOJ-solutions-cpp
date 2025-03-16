@@ -2,7 +2,7 @@
 
 ## bug report
 
-如果你发现了问题，先在[问题追踪器](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/issues)上检索一下是否有类似的问题，如果没有，直接提issue并套用bug-report模板。
+如果你发现了问题，先在[问题追踪器](https://github.com/TheMagicFlute/STOJ-solutions-cpp/issues)上检索一下是否有类似的问题，如果没有，直接提issue并套用bug-report模板。
 
 ## enhancement
 
@@ -16,7 +16,7 @@
 4. 切换到该分支
 5. 套用[SOLUTION-TEMPLATE.md](./SOLUTION_TEMPLATE.md)模板。如果该题目已经有题解了，套用H1标题一下的内容，并添加到题解文档末尾
 6. 将文档按照[CONTRIBUTING.md](./CONTRIBUTING.md)中的要求进行重命名，并放进对应的文件夹中
-7. 确保没有冲突，并提交[Pull Request](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/pulls)到TheMagicFlute-studio/main分支
+7. 确保没有冲突，并提交[Pull Request](https://github.com/TheMagicFlute/STOJ-solutions-cpp/pulls)到TheMagicFlute/main分支
 
 ### 2. 使用git进行修改（推荐）
 
@@ -29,7 +29,7 @@
 7. 使用 `git add .`命令将所有修改添加到暂存区
 8. 使用 `git commit -m "add solution for problem xxx"`命令提交修改
 9. 使用 `git push origin dev`命令将修改推送到你的fork
-10. 确保没有冲突，并提交[Pull Request](https://github.com/TheMagicFlute-studio/STOJ-solutions-cpp/pulls)到TheMagicFlute-studio/main分支
+10. 确保没有冲突，并提交[Pull Request](https://github.com/TheMagicFlute/STOJ-solutions-cpp/pulls)到TheMagicFlute/main分支
 
 恭喜你，你已经完成了贡献！你要等的是管理员审核你的代码，并合并到主分支。
 
